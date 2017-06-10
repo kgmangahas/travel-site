@@ -7,12 +7,9 @@
        padding-left: 94px;   
     }
    
-    &__icon {
-        width: 66px;
-        height: auto;
+    &__icon {       
         display: block;
         margin: 0 auto;
-       
         
         @mixin atSmall {
             position: absolute;
@@ -28,7 +25,7 @@
         text-align: center;
         
         @mixin atSmall {
-             font-size: 1.875rem;
+            font-size: 1.875rem;
             margin-top: 1em;
             text-align: left;
         }

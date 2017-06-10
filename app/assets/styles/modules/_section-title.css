@@ -13,12 +13,11 @@
     }
     
     &__icon {       
-        width: 66px;
-        height: auto;       
+               
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: .7rem;
+        
         
         @mixin atSmall {            
             display: inline-block;
@@ -26,10 +25,22 @@
             margin-right: .5rem;
             margin-bottom: 0;
             position: relative;
-            top: 15px;  
+            top: 6px; 
+            
+            
         }
-     
+        
+        
+     }
+    
+    &__icon-t-margin {
+            @mixin atSmall {
+                
+                top: 13px;
+            }
     }
+    
+   
     
     &--blue {
         color: $mainBlue;
