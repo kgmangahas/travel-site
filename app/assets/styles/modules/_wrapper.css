@@ -38,7 +38,7 @@
     &--b-margin {
         margin-bottom: 1rem;
         
-        @mixin atMedium {
+        @mixin atSmall {
              margin-bottom: 3.875rem;
         }
     }

@@ -41,7 +41,7 @@
         }
         &__medium-4 {
             float: left;
-            width: 33.33%%;
+            width: 33.33%;
         }
         
         &__medium-6 {
@@ -71,7 +71,7 @@
         }
         &__large-4 {
             float: left;
-            width: 33.33%%;
+            width: 33.33%;
         }
         
         &__large-6 {
@@ -94,16 +94,11 @@
         
         
     }
-    
-    
-   
-    
-   
  
     
     /*Begin Equal Height Rules */
     
-    &--equal-height-at-medium {
+    .flexbox &--equal-height-at-medium {
         
         @mixin atMedium {
             display: flex;
@@ -115,7 +110,7 @@
         }
     }
     
-     &--equal-height-at-large {
+     .flexbox &--equal-height-at-large {
         
         @mixin atLarge {
             display: flex;
